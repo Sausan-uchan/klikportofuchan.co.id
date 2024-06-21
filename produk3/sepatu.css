@@ -1,0 +1,460 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: bisque; */
+  padding: 1%;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+span {
+  color: #ff6b81;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.navbar {
+  background-color: bisque;
+}
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: #ff6b81;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff4757;
+}
+.ctn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #ff6b81;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #ff4757;
+}
+
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* CSSS for navbar section */
+
+.logo {
+  width: 10%;
+  float: left;
+}
+.menu {
+  line-height: 60px;
+}
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+/* CSS for Food SEarch Section */
+
+.food-search {
+  background-color: bisque;
+  padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CSS for Categories */
+.categories {
+  padding: 4% 0;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+p {
+  text-overflow: ellipsis;
+
+  overflow: hidden scroll;
+
+  white-space: nowrap;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row .col img {
+  border-radius: 15px;
+}
+
+.ctn {
+  padding: 8px 15px;
+
+  background: #fc036b;
+  border-radius: 38px;
+  color: whitesmoke;
+}
+
+.tours .image-gallery {
+  display: flex;
+  flex: wrap;
+  width: 100%;
+  align-items: center;
+}
+.tours .row .col {
+  width: 70%;
+}
+
+.tours {
+  margin-bottom: 90px;
+}
+.tours h1 {
+  font-size: 6vmin;
+}
+.image-col {
+  width: 60%;
+}
+
+.content-col {
+  width: 40%;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-gallery img {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.content-col {
+  font-size: 3vmin;
+  color: #484872;
+}
+
+.content-col .line {
+  margin-left: -1px;
+}
+
+.content-col p {
+  padding: 0;
+  margin: 30px auto;
+}
+
+.content-col .ctn {
+  margin-left: -100px;
+}
+
+.image-gallery img {
+  justify-content: center;
+  align-items: center;
+}
+
+/* animations  */
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.ctn:hover {
+  background: whitesmoke;
+  color: #fc036b;
+  box-shadow: 2px 2px 5px #00000056;
+}
+
+li:hover {
+  color: #fc036b;
+  /* cursor: zoom-out; */
+}
+
+.food-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+.food-menu-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.food-menu-img {
+  width: 16%;
+  float: left;
+}
+
+.food-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+.food-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+
+.img-responsive {
+  width: 100%;
+}
+.img-curve {
+  border-radius: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contac-form {
+  padding-left: 610px;
+  padding-top: 80px;
+  margin-top: 30px;
+}
+
+.contac-form p {
+  margin-top: 20px;
+  font-size: 2.5vmin;
+}
+
+.section-title {
+  font-size: 5vmin;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contac-form input {
+  width: 380px;
+  height: 40px;
+}
+
+textarea {
+  width: 390px;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+.ctn {
+  padding-left: 20px;
+  margin-left: 610px;
+  margin-bottom: 40px;
+}
+
+footer {
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p:nth-child(1) {
+  font-size: 55px;
+  color: bisque;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+footer p:nth-child(2) {
+  font-size: 17px;
+  color: bisque;
+  text-align: center;
+  width: 500px;
+  line-height: 26px;
+}
+.sosial {
+  display: flex;
+}
+.sosial a {
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 58px;
+  margin: 25px 10px;
+  background: bisque;
+  text-decoration: none;
+  color: #ff4757;
+  font-size: 20px;
+}
+
+.sosial a:hover {
+  transform: scale(1.2);
+  transition: 0.35;
+}
+
+.end {
+  position: absolute;
+  color: bisque;
+  bottom: 35px;
+}
+
+.product {
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  margin-top: 10px;
+  /* background: #7D9D9C; */
+  margin-top: 30px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.product img {
+  max-width: 85%;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.product .btn-primary {
+  background-color: #ff4757;
+  color: white;
+  /* padding: 5px 10px; */
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 23px;
+}
+
+.produk-menu {
+  padding-left: 359px;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.product p {
+  text-align: center;
+}
+
+.product h2 {
+  text-align: center;
+  color: #ff4757;
+}
+
+.product-menu-news {
+  padding-left: 400px;
+  color: #ff4757;
+  margin-bottom: 40px;
+  font-size: 3vmin;
+}
+
+@media screen and (max-width: 850px) {
+  .food-menu {
+    background-color: #ececec;
+    /* padding: 4% 0; */
+    width: 100%;
+  }
+
+  .image-gallery {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product {
+    width: 100%;
+  }
+  .food-menu-desc {
+    max-width: 90%;
+    display: flex;
+  }
+
+  .food-menu-desc a {
+    position: absolute;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+}
